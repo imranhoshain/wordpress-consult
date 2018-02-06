@@ -56,6 +56,7 @@ if ( post_password_required() ) {
 				wp_list_comments( array(
 					'avatar_size' => 60,
 					'style'       => 'ul',
+					'callback'    => 'consult_comment',
 					'short_ping'  => true,
 					//'reply_text'  => twentyseventeen_get_svg( array( 'icon' => 'mail-reply' ) ) . __( 'Reply', 'twentyseventeen' ),
 				) );
@@ -88,7 +89,7 @@ $comments_args = array(
         'comment_notes_before' => '',
         'comment_notes_after' => '',
         // redefine your own textarea (the comment body)
-        'comment_field' => '<p class="comment-form-comment"><textarea id="comment" name="comment" placeholder="Your Comment* " aria-required="true"></textarea></p>',
+        'comment_field' => '<p class="comment-form-comment"><textarea id="comment" cols="40" name="comment" placeholder="Your Comment* " aria-required="true"></textarea></p>',
         'fields' => apply_filters( 'comment_form_default_fields', array(
 
     'author' =>
