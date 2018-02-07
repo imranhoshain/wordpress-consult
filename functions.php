@@ -5,6 +5,8 @@ require_once(get_template_directory().'/inc/theme-setup.php');
 require_once(get_template_directory().'/inc/navwalker.php');
 require_once(get_template_directory().'/inc/custom-widgets.php');
 require_once(get_template_directory().'/inc/custom-comments.php');
+require_once(get_template_directory().'/theme-options/cs-framework.php');
+require_once(get_template_directory().'/inc/breadcrumb.php');
 
 function consult_wpb_move_comment_field_to_bottom( $fields ) {
 	
