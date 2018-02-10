@@ -2,76 +2,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <div class="footer_widget">
-                        <h4 class="widget_title">Our Headquarters</h4>
+                    <div class="footer_widget">                        
                         <div class="footer_widget_content para_default">
                             <ul class="contact_info">
-                                <li><span class="icon flaticon-phone-call"></span> +088 212 386 5575</li>
-                                <li><span class="icon flaticon-contact"></span> helloxpart@gmail.com</li>
-                                <li><span class="icon flaticon-placeholder-outline"></span> 1010 Avenue Of The MoonNew York, NY 10018 US.</li>
+                               <?php echo dynamic_sidebar('footer-1'); ?>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="footer_widget">
-                        <h4 class="widget_title">Company</h4>
+                    <div class="footer_widget">                        
                         <div class="footer_widget_content para_default">
                             <ul>
-                                <li>
-                                    <a href="#">Consultancy Profile</a>
-                                </li>
-                                <li>
-                                    <a href="#">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="#">Our Services</a>
-                                </li>
-                                <li>
-                                    <a href="#">Team Member</a>
-                                </li>
-                                <li>
-                                    <a href="#">Latest News</a>
-                                </li>
-                                <li>
-                                    <a href="#">FAQ's</a>
-                                </li>
+                               <?php echo dynamic_sidebar('footer-2'); ?> 
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="footer_widget">
-                        <h4 class="widget_title">Useful Links</h4>
+                    <div class="footer_widget">                        
                         <div class="footer_widget_content para_default">
                             <ul>
-                                <li>
-                                    <a href="#">Create Account</a>
-                                </li>
-                                <li>
-                                    <a href="#">Our process</a>
-                                </li>
-                                <li>
-                                    <a href="#">People</a>
-                                </li>
-                                <li>
-                                    <a href="#">Company Profilile</a>
-                                </li>
-                                <li>
-                                    <a href="#">Client</a>
-                                </li>
-                                <li>
-                                    <a href="#">Help Desk</a>
-                                </li>
+                                 <?php echo dynamic_sidebar('footer-3'); ?> 
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="footer_widget">
-                        <h4 class="widget_title">Newsletter</h4>
+                    <div class="footer_widget">                        
                         <div class="footer_widget_content para_default">
-                            <p>Lorem ipsum dolor sit amet, consectet adipisicing elit, sed do eiusmod temporia incididunt ut labore ete.</p>
+                            <?php echo dynamic_sidebar('footer-4'); ?> 
                             <div class="Newsletter_mail_search">
                                 <form action="#" method="post">
                                     <div class="icon-addon addon-md">
